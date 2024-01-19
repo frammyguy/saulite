@@ -2,6 +2,10 @@
 
 class DB
 {
+    private $server = "localhost";
+    private $login = "root";
+    private $password = '';
+    private $database = "saulite";
     private $id = 0;
     private $name = '';
     private $type = 0;
@@ -13,10 +17,6 @@ class DB
     private $historyID = 0;
     private $historyTime = '';
     private $historyResult = '';
-    private $server = "localhost";
-    private $login = "root";
-    private $password = '';
-    private $database = "saulite";
 
     public function getID()
     {
